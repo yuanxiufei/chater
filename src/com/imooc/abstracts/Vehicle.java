@@ -12,7 +12,8 @@ public abstract class Vehicle {
      */
     // 抽象方法
     public abstract void drive();
-
+    // 充电的方法
+    public abstract void charge();
     public void speedUp(){
         System.out.println("加速行驶");
     }
