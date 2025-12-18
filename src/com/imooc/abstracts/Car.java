@@ -7,14 +7,10 @@ public class Car  extends Vehicle{
      */
     @Override
     public void drive() {
-        System.out.println("car在充电");
+        System.out.println("Car在充电");
     }
-
-    /**
-     * 重写行驶方法
-     */
     @Override
     public void charge() {
-        System.out.println("car在行驶");
+        System.out.println("Car在行驶");
     }
 }

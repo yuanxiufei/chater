@@ -10,4 +10,8 @@ public class MountainBike extends Bicyle{
     public void charge() {
         System.out.println("MountainBike在行驶");
     }
+    @Override
+    public void charge() {
+        System.out.println("车胎宽，阻力大，山坡锻炼身体，下坡省油");
+    }
 }
